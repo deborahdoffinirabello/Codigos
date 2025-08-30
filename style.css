@@ -1,0 +1,86 @@
+
+/* Configurando o background do site, e testando a utilização e configuracao de imagem*/ 
+
+body {
+
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f1edf1;
+  background-image: url("imagens/v1013-p-0009a.jpg");
+  background-repeat:repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+/* config das abas */ 
+
+.caixa {
+
+  background-color: #faf6c1c7; 
+  padding: 50px 40px;
+  border-radius: 35px;
+  box-shadow: 0 8px 16px rgba(184, 189, 112, 0.507);
+  max-width: 700px;
+  width: 90%;
+  margin-top: 100px; 
+  text-align: center;
+  color: #462611;
+  font-size: 30px; 
+  font-family: 'Poppins', sans-serif;
+
+}
+
+/* configurando o menu de navegação na parte superior da pagina*/
+
+nav {
+
+  background-color: #B9CCD5;
+  padding: 8px 12px;
+  border-radius: 8px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;             
+  justify-content: center;
+
+}
+
+/*configurando o texto do menu*/
+
+nav a {
+
+  color: #4626117e;
+  font-size: 20px; 
+  text-decoration: transparent; 
+  font-family: 'Poppins', sans-serif;
+  margin-right: 100px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 8px 12px;
+  border-radius: 15px;
+  transition: color 0.3s ease;
+
+}
+
+/* configurando a alterção do texto quando passa o mouse por cima */ 
+
+nav a:hover {
+
+  background-color: rgba(240, 240, 173, 0.5);
+  color: #4626117e;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+
+}
+
